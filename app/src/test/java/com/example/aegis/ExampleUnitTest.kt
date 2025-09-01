@@ -1,4 +1,4 @@
-package com.aegis
+package com.example.aegis
 
 import org.junit.Test
 

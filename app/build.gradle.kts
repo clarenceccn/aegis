@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aegis"
+    namespace = "com.project.aegis"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.aegis"
+        applicationId = "com.project.aegis"
         minSdk = 33
         targetSdk = 36
         versionCode = 1
@@ -51,6 +51,11 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.ui)
+    implementation(libs.androidx.foundation)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.animation)
+    implementation(libs.ui.graphics)
+    implementation(libs.androidx.animation.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
